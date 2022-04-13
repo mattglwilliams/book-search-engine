@@ -37,6 +37,13 @@ const resolvers = {
         { new: true, runValidators: true }
       )
     },
+    deleteBook: async (_, {bookID}, context) => {
+      return await User.findOneAndUpdate(
+        { _id: context.user._id },
+        { $pull: { savedBooks: { bookId: bookID } } },
+        { new: true }
+        );
+    }
   }
 }
 
