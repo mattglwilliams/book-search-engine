@@ -15,6 +15,8 @@ For this project, I have taken a book search engine that utilises the Google Boo
 
 The app has been built using the MERN stack with a React.js front end, a MongoDB database and a Node.js/Express server.
 
+You can see the deployed application here - https://mattglwilliams-book-search.herokuapp.com/
+
 ## Installation
 
 To install this project, simple clone the repository, then run the below command to install all dependencies.
