@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const secret = 'mysecretssshhhhhhh';
+const secret = precess.env.JWT_TOKEN || 'mysecretssshhhhhhh';
 const expiration = '2h';
 
 module.exports = {
